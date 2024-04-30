@@ -1,14 +1,7 @@
 .body{
     box-sizing: border-box;
+    padding: 20px;
     overflow: hidden;
-}
-
-.container,
-.row,
-.col,
-.navbar {
-    padding: 0;
-    margin: 0;
 }
 
 .nav-div .h4{
@@ -34,7 +27,7 @@ a:active {
 }
 
 .section {
-    padding: 50px 0px;
+    padding: 50px 20px;
     border: none;
     border-top: solid black 1px;
 }
@@ -52,10 +45,11 @@ a:active {
     height: 425px;
     padding: 10px 0px;
     border: none;
+    overflow: hidden;
 }
 
 .hero-section h1 {
-    font-size: 150px;
+    font-size: 130px;
 }
 
 @media (max-width: 1200px) {
