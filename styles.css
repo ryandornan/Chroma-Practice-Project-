@@ -79,5 +79,12 @@ a {
   }
 
   .back-to-top {
-    color: rgb(187, 187, 187);
+    color: rgb(192, 8, 8);
   }
+
+  @media (max-width: 767px) {
+    .social-links,
+    .location {
+        display: none;
+    }
+}
